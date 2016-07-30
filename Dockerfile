@@ -1,2 +1,2 @@
 FROM busybox
-RUN date
+CMD date
