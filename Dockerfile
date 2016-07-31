@@ -1,2 +1,2 @@
 FROM busybox
-CMD ls -al /
+CMD sh -c 'exit $((RANDOM%2))'
