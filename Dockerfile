@@ -1,2 +1,2 @@
 FROM busybox
-CMD date
+CMD ls -al /
